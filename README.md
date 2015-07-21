@@ -3,6 +3,8 @@ ElixirSslClient
 
 Testing usage of HTTPoison with client SSL certificate for HTTPS requests.
 
+Since this code shows how to use client, you will also need a server. Same configuration (ports, certificates) are also used here: https://github.com/remiq/nginx-ssl-client
+
 To see how to use HTTPoison > Hackney > SSL options, check: test/elixir_ssl_client_test.exs
 
 Caveats:
